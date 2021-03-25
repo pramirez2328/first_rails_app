@@ -39,11 +39,23 @@
 }
 
 ul>li.li {
-  list-style-type: square;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(47, 201, 201);
 }
 
 .li:hover {
   color: aqua;
+}
+
+ul>.li::before {
+  content: "\2234";
 }
 
 #main {
