@@ -13,3 +13,101 @@
  *= require_tree .
  *= require_self
  */
+
+#title {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  letter-spacing: 0.7rem;
+}
+
+#rials {
+  font-family: fantasy;
+  font-weight: lighter;
+}
+
+#nav {
+  background-color: rgb(240, 199, 97);
+  text-transform: capitalize;
+  font-size: larger;
+  padding: 0.5rem;
+}
+
+#nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ul>li.li {
+  list-style-type: square;
+}
+
+.li:hover {
+  color: aqua;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+  border: solid 1px goldenrod;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.article {
+  margin-right: 1rem;
+}
+
+#images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#drag1 {
+  width: 300px;
+  height: 150px;
+}
+
+#drag2 {
+  width: 300px;
+  height: 150px;
+}
+
+#drag3 {
+  width: 300px;
+  height: 150px;
+}
+
+#footer {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  #nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+  }
+  #main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .article {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  #drag1 {
+    margin-bottom: 1rem;
+  }
+  #drag2 {
+    margin-bottom: 1rem;
+  }
+}
