@@ -58,6 +58,10 @@ ul>.li::before {
   content: "\2234";
 }
 
+h1 {
+  text-align: center;
+}
+
 #main {
   display: flex;
   flex-direction: row;
@@ -94,6 +98,16 @@ ul>.li::before {
 #drag3 {
   width: 300px;
   height: 150px;
+}
+
+#drag4 {
+  width: 40%;
+}
+
+#thanks {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 #footer {
